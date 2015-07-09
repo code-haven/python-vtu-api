@@ -2,11 +2,14 @@
 A python script to scrape results.vtu.ac.in to retrieve results in a developer friendly(JSON) format.
 
 # Usage:
-1) Install the dependencies: pip install -r requirements.txt
-2) python vtuscraping.py <USN>
+1) Install the dependencies: 
+>>pip install -r requirements.txt
+
+2) Run the script by providing a usn as an argument. 
+>>python vtuscraping.py <USN>
 
 Output format:
-
+<pre>
 {
 	name: "..",
 	semester: "..",
@@ -31,9 +34,10 @@ Output format:
 		..
 	]
 }
+</pre>
 
 # Bugs
-1) Currently it can accurately parse regular results(without backlogs).
+1) Right now, it can accurately parse only regular results(without backlogs).
 
 # Todo
 1) Seperate subject name and subject code into seperate fields for each subject.
