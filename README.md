@@ -1,10 +1,10 @@
-# vtu-results-scaper
+# python-vtu-api
 A python package that scrapes results.vtu.ac.in to retrieve results in a developer friendly format.
 
 # Usage:
 1) Clone the repo
 
-2) cd vtu-results-scraper/
+2) cd python-vtu-api/
 
 3) Install python dependencies:
 
