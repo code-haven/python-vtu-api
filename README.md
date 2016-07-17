@@ -1,15 +1,28 @@
 # vtu-results-scaper
-A python script to scrape results.vtu.ac.in to retrieve results in a developer friendly format.
+A python package that scrapes results.vtu.ac.in to retrieve results in a developer friendly format.
 
 # Usage:
-1) Install the dependencies: 
->>pip install -r requirements.txt
+1) Clone the repo
 
-2) Run the script by providing a usn as an argument. 
->>python vtuscraping.py \<\<USN\>\>
+2) cd vtu-results-scraper/
+
+3) Install python dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+4) Use the get_results function to retrieve the results for a given usn.
+
+```
+from vtu import results
+
+results.get_results(usn=xxx)
+```
 
 Output format:
-<pre>
+
+```
 {
 	name: "..",
 	semester: "..",
@@ -34,14 +47,12 @@ Output format:
 		..
 	]
 }
-</pre>
-
-# Bugs
-1) Right now, it can accurately parse only regular results(without backlogs).
+```
 
 # Todo
-1) Seperate subject name and subject code into seperate fields for each subject.
-2) Refactor code for reusability, maybe a function that returns the result as JSON. 
+- [ ] Add support for revaluation results and backlogs.
 
-# Licence 
+- [x]  Refactor code for reusability, maybe a function that returns the result as JSON.
+
+# License
 MIT. Do whatever you want with it.
