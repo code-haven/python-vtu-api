@@ -1,0 +1,126 @@
+.blank
+{
+}
+.headline
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+BODY
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px
+}
+TD
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px
+}
+A
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px
+}
+.whitelink
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.textlink
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    TEXT-DECORATION: underline
+}
+.headlinelink
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+headlinelink:unknown
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.headlinelink:hover
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: underline
+}
+.headlinelink:visited
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.headlinelink:hover
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: underline
+}
+.ratecard
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9px
+}
+.wordhighlight
+{
+    COLOR: #ff0000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+INPUT.radio
+{
+    BACKGROUND: #fffffe
+}
+.header
+{
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 14px
+}
+.white
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px
+}
+.enhancedwhite
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold
+}
+.black
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px
+}
