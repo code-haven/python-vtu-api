@@ -25,7 +25,6 @@ Output format:
 ```
 {
 	name: "..",
-	semester: "..",
 	usn: "...",
 	total: "...",
 	result: "...",
@@ -34,12 +33,14 @@ Output format:
 			subject: "..",
 			internal: "..",
 			external: "..",
+		    semester: "..",
 			total: "..",
 			result: "..:,
 		},
 		{
 			subject: "..",
 			internal: "..",
+            semester: "..",
 			external: "..",
 			total: "..",
 			result: "..:,
